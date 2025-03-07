@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bono - Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+           background-image:url('background(1) JPG File (.jpg)');
+           background: linear-gradient(to bottom, #d32f2f, #6a1b9a);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            text-align: left;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .contact-info {
+            font-size: 14px;
+        }
+
+        .form-container {
+            display: flex;
+            gap: 40px;
+        }
+
+        .form-container form {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .form-container input, 
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-container button {
+            background: #f44336;
+            border: none;
+            padding: 12px;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .content h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .content p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">Bono</div>
+            <div class="contact-info">
+                <span>📧 contact@bono.com</span> | 
+                <span>📞 (+31) 021-800-8244</span>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="content">
+                <h1>Coming Soon For Every Developer</h1>
+                <p>Our new Bono web app will change the way you think about content management and will allow you to focus on what’s really important. Use the contact form to send us your thoughts.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
